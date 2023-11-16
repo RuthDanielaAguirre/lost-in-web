@@ -1,0 +1,147 @@
+HEADER > div {
+    padding: 25px;
+    display: flex;
+    justify-content: spece-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space between;
+    align-items: right;
+    
+    li{
+        display: inline-block;
+        
+    }
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.NPM{
+        width: px;
+        margin-right: 1rem;
+}
+
+.lupa {
+    
+        width: 20px;
+        margin-right: 1rem;
+}
+
+.blackheart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+    font-family: 'Poppins';
+    background-color: white;
+    
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hexagon{
+        width: 500px;
+        align-items: center;
+}
+
+.zero-configuration{
+            width: 20px;
+        margin-right: 1rem;
+
+}
+
+.team-management{
+    
+        width: 20px;
+        margin-right: 1rem;
+}
+
+.npm-audit {
+        width: 20px;
+        margin-right: 1rem;
+}
+
+.familiar-features {
+        width: 20px;
+        margin-right: 1rem;
+}
+
+.column{
+    height: 25%;
+    margin: 0.5%;
+    box-sizing:  border-box;
+    border: none;
+}
+
+label {
+    color: rgba(0, 0, 0, 0.05);
+}
+
+input {
+    color: rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button1, button2, button3 {
+    background-color: #fb3e44;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#section-1, #section-2 {
+    display:flex;
+}
+
+#section-1 {
+    justify-content:center;
+    width: 600px;
+    background-color: rgba(232, 217, 217, 3);
+
+    button4 {
+        background-color: #fb3b49;
+        box-shadow: 8px 8px 0 rgba(251,59,73,.2) ;
+
+    }
+}
+
+/* #section-2{
+    heading
+    
+} */
+
+#section-3{
+    display: grid;
+    grid: column;
+
+    button5 {
+        background-color: #333;
+        color: white;
+        box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+        cursor: pointer;
+        padding:
+    }
+}
