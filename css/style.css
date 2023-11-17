@@ -1,5 +1,5 @@
-HEADER > div {
-    padding: 25px;
+header > div {
+    padding: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +15,7 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: space between;
-    align-items: right;
+    align-items: center;
     display: inline-block;
 }
 
@@ -31,6 +31,11 @@ nav a {
         margin-right: 1rem;
 }
 
+.containernav {
+    display: flex;
+    flex-direction:inline;
+}
+
 .lupa {
     
         width: 20px;
@@ -40,6 +45,12 @@ nav a {
 .blackheart {
     width: 20px;
     margin-right: 1rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins");
@@ -52,22 +63,28 @@ body {
     
 }
 
-
-.form {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+#h1 {
+    
+    font-size: 60;
 }
 
-#h1 {
-    align-content: center;
+#h2 {
+    font-size: 26;
+}
+
+#h3  {
+    font-size: 22;
+    color: #ED1C24;
+}
+
+.highlight {
+    text-align: left;
+padding-right: 50px;
 }
 
 .hexagon{
         width: 300px;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
+        height: auto;
 }
 
 .zero-configuration{
@@ -109,6 +126,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 600px;
+    display:flex;
 }
 
 #button1 {
@@ -138,12 +156,13 @@ input {
     justify-content:center;
     width: 600px;
     background-color: rgba(232, 217, 217, 3);
+}
 
 #button4 {
-        background-color: #fb3b49;
-        box-shadow: 8px 8px 0 rgba(251,59,73,.2) ;
-    }
+    background-color: #fb3b49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);  
 }
+
 
 /* #section-2{
     heading
@@ -151,18 +170,21 @@ input {
 } */
 
 #section-3{
-    display: grid;
-    grid: column;
+    display: flex;
+    flex-direction: column;}
 
 #button5 {
-        background-color: #333;
-        color: white;
-        box-shadow: 8px 8px 0 rgba(128,83,35,.2);
-        cursor: pointer;
-    }
-}
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    cursor: pointer;
+} 
+
+#button6 {
+    background-color: #333;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    cursor: pointer;
+} 
 
 .container{
     display: flex;
-    flex-direction: column;
 }
