@@ -66,6 +66,8 @@ body {
 .hexagon{
         width: 300px;
         align-items: center;
+        display: flex;
+        flex-direction: column;
 }
 
 .zero-configuration{
@@ -137,10 +139,9 @@ input {
     width: 600px;
     background-color: rgba(232, 217, 217, 3);
 
-    button4 {
+#button4 {
         background-color: #fb3b49;
         box-shadow: 8px 8px 0 rgba(251,59,73,.2) ;
-
     }
 }
 
@@ -158,6 +159,10 @@ input {
         color: white;
         box-shadow: 8px 8px 0 rgba(128,83,35,.2);
         cursor: pointer;
-        padding:
     }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
 }
