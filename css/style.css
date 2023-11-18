@@ -54,12 +54,11 @@ nav a {
 
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
-body {
+#body {
     font-family: 'Poppins';
-    background-color: white;
+    background-color: red;
     display: flex;
     flex-direction: column;
-    
 }
 
 #h1 {
@@ -69,6 +68,8 @@ body {
 
 #h2 {
     font-size: 26;
+    transform: skew(9deg,0deg);
+    font-style: italic;
 }
 
 #h3 {
