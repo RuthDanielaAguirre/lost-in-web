@@ -80,10 +80,13 @@ h3 {
     padding-right: 50px;
 }
 
-.hexagon{
-        width: 300px;
-        height: auto;
-        
+#hexagon{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    margin-block: 40px;
+
 }
 
 .zero-configuration{
