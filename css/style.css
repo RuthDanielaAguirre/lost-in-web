@@ -52,33 +52,32 @@ nav a {
     gap: 10px;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Poppins");
-
-#body {
+body {
     font-family: 'Poppins';
-    background-color: red;
     display: flex;
     flex-direction: column;
 }
 
-#h1 {
+h1 {
     padding-top: 5%;
     font-size: 80px;
 }
 
-#h2 {
+h2 {
     font-size: 26;
     transform: skew(9deg,0deg);
     font-style: italic;
+    background-color: rgba(255, 204, 53, .4);
+    
 }
 
-#h3 {
+h3 {
     color: #ED1C24;
 }
 
 .highlight {
     text-align: left;
-padding-right: 50px;
+    padding-right: 50px;
 }
 
 .hexagon{
@@ -88,24 +87,24 @@ padding-right: 50px;
 }
 
 .zero-configuration{
-            width: 20px;
+            width: 30px;
         margin-right: 1rem;
 
 }
 
 .team-management{
     
-        width: 20px;
+        width: 30px;
         margin-right: 1rem;
 }
 
 .npm-audit {
-        width: 20px;
+        width: 30px;
         margin-right: 1rem;
 }
 
 .familiar-features {
-        width: 20px;
+        width: 30px;
         margin-right: 1rem;
 }
 
@@ -150,6 +149,8 @@ input {
     align-items: center;
     text-align: center;
     background-color: rgba(232, 217, 217, 3);
+    height: 600px;
+    font-family: "poppins";
 }
 
 #button4 {
@@ -162,11 +163,15 @@ input {
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 600px;
+
 } 
 
 .section-3{
     display: flex;
-    flex-direction: row;}
+    height: 400px;
+    flex-direction: row;
+}
 
 #button5 {
     box-shadow: 8px 8px 0 rgba(128,83,35,.2);
@@ -185,3 +190,4 @@ input {
 .container{
     display: flex;
 }
+@import url("https://fonts.googleapis.com/css?family=Poppins");
