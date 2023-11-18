@@ -14,7 +14,6 @@ nav {
 nav ul{
     list-style: none;
     display: flex;
-    justify-content: space between;
     align-items: center;
     display: inline-block;
 }
@@ -72,8 +71,7 @@ body {
     font-size: 26;
 }
 
-#h3  {
-    font-size: 22;
+#h3 {
     color: #ED1C24;
 }
 
@@ -85,6 +83,7 @@ padding-right: 50px;
 .hexagon{
         width: 300px;
         height: auto;
+        
 }
 
 .zero-configuration{
@@ -116,10 +115,6 @@ padding-right: 50px;
     border: none;
 }
 
-label {
-    color: rgba(0, 0, 0, 0.05);
-}
-
 input {
     color: rgba(0, 0, 0, 0.05);
     padding: 8px;
@@ -148,17 +143,11 @@ input {
 }
 
 
-#section-1, #section-2 {
-    display:flex;
-    text-align: center;
-}
-
-#section-1 {
+.section-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 600px;
     background-color: rgba(232, 217, 217, 3);
 }
 
@@ -168,14 +157,15 @@ input {
 }
 
 
-/* #section-2{
-    heading
-    
-} */
-
-#section-3{
+.section-2{
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    text-align: center;
+} 
+
+.section-3{
+    display: flex;
+    flex-direction: row;}
 
 #button5 {
     box-shadow: 8px 8px 0 rgba(128,83,35,.2);
@@ -187,6 +177,8 @@ input {
     color: white;
     box-shadow: 8px 8px 0 rgba(128,83,35,.2);
     cursor: pointer;
+    padding: 10 20;
+    align-items: center;
 } 
 
 .container{
