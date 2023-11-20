@@ -96,8 +96,8 @@ h3 {
 }
 
 .zero-configuration{
-            width: 30px;
-        margin-right: 1rem;
+    width: 30px;
+    margin-right: 1rem;
 
 }
 
@@ -191,6 +191,7 @@ input {
     height: 600px;
     flex-direction: row;
     padding-top: 16%;
+    justify-content: center;
 }
 
 #button6 {
