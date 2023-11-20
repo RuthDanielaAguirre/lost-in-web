@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+*{
+    font-family: Poppins;
+}
+
 header > div {
     padding: 0 25px;
     display: flex;
@@ -80,9 +85,10 @@ h3 {
     padding-right: 50px;
 }
 
-#hexagon{
+.hexagon{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 300px;
     height: auto;
     margin-block: 40px;
@@ -154,10 +160,13 @@ input {
     background-color: rgba(232, 217, 217, 3);
     height: 600px;
     font-family: "poppins";
+    line-height: 600%;
 }
 
 #button4 {
     background-color: #fb3b49;
+    width: 160px;
+    height: 64px;
     box-shadow: 8px 8px 0 rgba(251,59,73,.2);  
 }
 
@@ -167,30 +176,33 @@ input {
     flex-direction: column;
     text-align: center;
     height: 600px;
-
+    justify-content: space-between;
 } 
-
-.section-3{
-    display: flex;
-    height: 400px;
-    flex-direction: row;
-}
 
 #button5 {
     box-shadow: 8px 8px 0 rgba(128,83,35,.2);
     cursor: pointer;
+    width: 160px;
+    height: 64px;
 } 
+
+.section-3{
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    padding-top: 16%;
+}
 
 #button6 {
     background-color: #333;
+    flex-direction: row;
     color: white;
     box-shadow: 8px 8px 0 rgba(128,83,35,.2);
     cursor: pointer;
     padding: 10 20;
     align-items: center;
-} 
+    width: 160px;
+    height: 64px;
+    justify-content: center;
 
-.container{
-    display: flex;
-}
-@import url("https://fonts.googleapis.com/css?family=Poppins");
+} 
