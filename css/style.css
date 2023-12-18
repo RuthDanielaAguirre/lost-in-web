@@ -36,12 +36,13 @@ nav a {
 }
 
 .containernav {
+    position: absolute;
     display: flex;
-    flex-direction:inline;
+    flex-direction:row;
 }
 
 .lupa {
-    
+    position:relative;
         width: 20px;
         margin-right: 1rem;
 }
@@ -69,7 +70,7 @@ h1 {
 }
 
 h2 {
-    font-size: 26;
+    font-size: 40px;
     transform: skew(9deg,0deg);
     font-style: italic;
     background-color: rgba(255, 204, 53, .4);
@@ -84,7 +85,11 @@ h3 {
     text-align: left;
     padding-right: 50px;
 }
-
+.container-img{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
 .hexagon{
     display: flex;
     align-items: center;
@@ -92,7 +97,7 @@ h3 {
     width: 300px;
     height: auto;
     margin-block: 40px;
-
+    
 }
 
 .zero-configuration{
@@ -129,7 +134,7 @@ input {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 600px;
+    width: 1100px;
     display:flex;
 }
 
@@ -142,11 +147,11 @@ input {
     cursor: pointer;
 }
 
-#button2, #button3 {
+.button2 {
     background-color: white;
     color: black;
+    border: 1px solid;
     padding: 8px 12px;
-    border: none;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -175,8 +180,8 @@ input {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 600px;
-    justify-content: space-between;
+    justify-content:space-around;
+    padding:  15%;
 } 
 
 #button5 {
@@ -188,10 +193,9 @@ input {
 
 .section-3{
     display: flex;
-    height: 600px;
     flex-direction: row;
-    padding-top: 16%;
     justify-content: center;
+    margin-bottom: 10%;
 }
 
 #button6 {
@@ -200,10 +204,11 @@ input {
     color: white;
     box-shadow: 8px 8px 0 rgba(128,83,35,.2);
     cursor: pointer;
-    padding: 10 20;
-    align-items: center;
-    width: 160px;
-    height: 64px;
     justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 64px;
+    margin:auto;
+
 
 } 
